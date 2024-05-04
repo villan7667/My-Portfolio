@@ -362,6 +362,7 @@ span {
     padding-left: calc(50% + 30px);
 }
 
+
 .timeline-date {
     font-size: 20px;
     font-weight: 800;
@@ -410,6 +411,86 @@ span {
     background-color: var(--bg-color);
     width: 50px;
 }
+.services {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 68px;
+    padding-bottom: 20px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+.sub-title span {
+    color: #0ef;
+}
+
+
+.services-list {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 10;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.55, transform 8.55;
+    box-shadow: 1px 1px 20px #018790f7,
+                1px 1px 40px #00a6b8f7
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contact {
     background-color: var(--bg-color);
@@ -594,7 +675,8 @@ footer ul li a {
         border-bottom: 2px solid var(--main-color);
         display: none;
     }
-    .navbar.active{
+
+    .navbar.active {
         display: block;
     }
 
